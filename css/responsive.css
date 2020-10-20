@@ -1,0 +1,315 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .feature-section .text-area h2 {
+        font-size: 79px;
+        line-height: 89px;
+    }
+    .feature-section .text-area p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .feature-inner img{
+        width: 100%;
+    }
+    .feature-section .feature-inner h4 {
+        font-size: 21px;
+        line-height: 21px;
+    }
+    .limitless-section .limitless-inner h1 {
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .limitless-section .limitless-inner p {
+        font-size: 8px;
+        line-height: 18px;
+    }
+    .student h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .courses h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .hours-video h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .hours-video p {
+        font-size: 9px;
+        line-height: 18px;
+    }
+    .university .text h2 {
+        font-size: 58px;
+        line-height: 68px;
+    }
+    .university .card-title {
+        font-size: 7px;
+        line-height: 21px;
+    }
+    .university .card-text {
+        font-size: 6px;
+        line-height: 16px;
+    }
+    .footer .footer-wighet .footer-wighet-inner-1 ul li span {
+        font-size: 8px;
+    }
+    .footer .footer-wighet .footer-wighet-inner-1 ul li {
+        list-style: none;
+        display: inline;
+        font-size: 11px;
+        color: #969595;
+        line-height: 15px;
+    }
+    .footer .footer-wighet .footer-wighet-inner-1 .btn-info {
+        position: absolute;
+        top: 56px;
+        right: 1px;
+    }
+    .footer .footer-wighet .footer-wighet-inner ul li {
+        margin-right: 2px;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-section .banner {
+        padding: 0px 0px 0px;
+    }
+    .header-section .banner .banner-inner {
+        margin-bottom: 113px;
+    }
+    .header-section .banner .banner-inner h2 {
+        font-size: 21px;
+        font-weight: 800;
+        line-height: 31px;
+    }
+    .header-section .banner .banner-inner p {
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+    .feature-section .text-area h2 {
+        font-size: 51px;
+        line-height: 61px;
+    }
+    .feature-section .text-area p {
+        font-size: 11px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .feature-section .bg-1 {
+        background: #f9703a;
+        margin-bottom: 25px;
+    }
+    .feature-section .bg-2 {
+        background: #80be41;
+        margin-bottom: 25px;
+    }
+    .limitless-section {
+        padding: 30px 0px;
+    }
+    .limitless-section .limitless-inner h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .limitless-section .limitless-inner p {
+        font-size: 11px;
+        line-height: 21px;
+    }  
+    .student {
+        padding: 0px 0px 0px 33px;
+    }
+    .courses {
+        padding: 0px 0px 0px 33px;
+    }
+    .hours-video {
+        padding: 0px 0px 0px 33px;
+    }
+    .university {
+        padding: 50px 0px;
+    }
+    .university .text h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .university .card-title {
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 37px;
+    }
+    .university .card-text {
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 13px;
+    }
+    .university .btn-link {
+        font-size: 29px;
+        line-height: 39px;
+        font-weight: 500;
+    }
+    
+    .footer .footer-wighet .footer-wighet-inner p {
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .footer .footer-wighet .footer-wighet-inner-1 h4 {
+        margin-top: 27px;
+        font-size: 27px;
+    }
+    .footer .footer-wighet .footer-wighet-inner-1 ul li {
+        font-size: 27px;
+        line-height: 37px;
+    }
+    .footer .footer-wighet .footer-wighet-inner-1 ul li span {
+        font-size: 19px;
+    }
+    .footer .footer-wighet .footer-wighet-inner-1 .form-control {
+        width: 100%;
+        font-size: 37px;
+    }
+    .footer .footer-wighet .footer-wighet-inner-1 .btn-info {
+        font-size: 20px;
+        padding: 18px 22px;
+        position: absolute;
+        top: 1px;
+        right: 0px;
+    }
+    .main-footer .text p {
+        font-size: 29px;
+        line-height: 39px;
+        text-align: center;
+    }
+    .footer .main-footer .main-footer-inner ul {
+        margin-right: 20px;
+    }
+    .footer .main-footer .main-footer-inner ul li {
+        margin-right: 14px;
+        margin-left: 6px;
+    }
+    .footer .main-footer .main-footer-inner ul li a {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    .header-section .banner {
+        padding: 0px 0px 0px;
+    }
+    .header-section .banner .banner-inner {
+        margin-bottom: 113px;
+    }
+    .header-section .banner .banner-inner h2 {
+        font-size: 21px;
+        font-weight: 800;
+        line-height: 31px;
+    }
+    .header-section .banner .banner-inner p {
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+    .feature-section .text-area h2 {
+        font-size: 31px;
+        line-height: 41px;
+    }
+    .feature-section .text-area p {
+        font-size: 7px;
+        line-height: 15px;
+        font-weight: 600;
+    }
+    .feature-section .bg-1 {
+        background: #f9703a;
+        margin-bottom: 25px;
+    }
+    .feature-section .bg-2 {
+        background: #80be41;
+        margin-bottom: 25px;
+    }
+    .limitless-section {
+        padding: 30px 0px;
+    }
+    .limitless-section .limitless-inner h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .limitless-section .limitless-inner p {
+        font-size: 7px;
+        font-weight: 400;
+        color: rgb(90, 110, 121);
+        line-height: 17px;
+    }  
+    .student {
+        padding: 0px 0px 0px 33px;
+    }
+    .courses {
+        padding: 0px 0px 0px 33px;
+    }
+    .hours-video {
+        padding: 0px 0px 0px 33px;
+    }
+    .university {
+        padding: 50px 0px;
+    }
+    .university .text h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .university .card-title {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+    .university .card-text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .university .btn-link {
+        font-size: 21px;
+        font-weight: 500;
+    }
+    .footer .footer-wighet .footer-wighet-inner-1 h4 {
+        margin-top: 27px;
+    }
+    .footer .footer-wighet .footer-wighet-inner-1 .form-control {
+        width: 100%;
+    }
+    .footer .footer-wighet .footer-wighet-inner-1 .btn-info {
+        position: absolute;
+        top: 1px;
+        right: 0px;
+    }
+    .main-footer .text p {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .footer .main-footer .main-footer-inner ul {
+        margin-right: 20px;
+    }
+    .footer .main-footer .main-footer-inner ul li {
+        margin-right: 14px;
+        margin-left: 6px;
+    }
+    .footer .main-footer .main-footer-inner ul li a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
