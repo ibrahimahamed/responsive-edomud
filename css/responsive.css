@@ -4,6 +4,28 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .header-section{
+        background: url("../img/ms-bg.png") center bottom no-repeat;
+        background-size: contain;
+    }
+    .header-section .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: transparent;
+        background: #ffc178;
+    }
+    .header-section .navbar-collapse {
+        background: #ffc178;
+        padding: 20px;
+    }
+    .header-section .menu .btn-info {
+        width: 100%;
+    }
+    .header-section .menu .navbar-light .navbar-nav .active>.nav-link {
+        color: #fff;
+    }
+    .header-section .menu .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    }
     .feature-section .text-area h2 {
         font-size: 79px;
         line-height: 89px;
@@ -84,6 +106,28 @@
   */
   
 @media (min-width: 481px) and (max-width: 767px) {
+    .header-section{
+        background: url("../img/ms-bg.png") center bottom no-repeat;
+        background-size: contain;
+    }
+    .header-section .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: transparent;
+        background: #ffc178;
+    }
+    .header-section .navbar-collapse {
+        background: #ffc178;
+        padding: 20px;
+    }
+    .header-section .menu .btn-info {
+        width: 100%;
+    }
+    .header-section .menu .navbar-light .navbar-nav .active>.nav-link {
+        color: #fff;
+    }
+    .header-section .menu .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    }
     .header-section .banner {
         padding: 0px 0px 0px;
     }
@@ -210,6 +254,28 @@
   */
   
 @media (min-width: 320px) and (max-width: 480px) {
+    .header-section{
+        background: url("../img/ms-bg.png") center bottom no-repeat;
+        background-size: contain;
+    }
+    .header-section .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: transparent;
+        background: #ffc178;
+    }
+    .header-section .navbar-collapse {
+        background: #ffc178;
+        padding: 20px;
+    }
+    .header-section .menu .btn-info {
+        width: 100%;
+    }
+    .header-section .menu .navbar-light .navbar-nav .active>.nav-link {
+        color: #fff;
+    }
+    .header-section .menu .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+    }
     .header-section .banner {
         padding: 0px 0px 0px;
     }
