@@ -9,13 +9,8 @@ jQuery(function($) {
 });
 
 
-// wow js ==========
-
-// //initiating jQuery
-// $('.demo').animationCounter({
-//     start: 0,
-//     end: 100
-// });
+//initiating jQuery
+AOS.init();
 
 // animationCounter
 $('.demo1').animationCounter({

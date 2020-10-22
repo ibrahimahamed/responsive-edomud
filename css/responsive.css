@@ -205,46 +205,46 @@
     }
     
     .footer .footer-wighet .footer-wighet-inner p {
-        font-size: 23px;
-        line-height: 33px;
+        font-size: 18px;
+        line-height: 28px;
     }
     .footer .footer-wighet .footer-wighet-inner-1 h4 {
         margin-top: 27px;
         font-size: 27px;
     }
     .footer .footer-wighet .footer-wighet-inner-1 ul li {
-        font-size: 27px;
-        line-height: 37px;
+        font-size: 18px;
+        line-height: 28px;
     }
     .footer .footer-wighet .footer-wighet-inner-1 ul li span {
         font-size: 19px;
     }
     .footer .footer-wighet .footer-wighet-inner-1 .form-control {
         width: 100%;
-        font-size: 37px;
+        font-size: 26px;
     }
     .footer .footer-wighet .footer-wighet-inner-1 .btn-info {
         font-size: 20px;
-        padding: 18px 22px;
+        padding: 9px 22px;
         position: absolute;
         top: 1px;
         right: 0px;
     }
     .main-footer .text p {
-        font-size: 29px;
-        line-height: 39px;
+        font-size: 18px;
+        line-height: 28px;
         text-align: center;
     }
     .footer .main-footer .main-footer-inner ul {
         margin-right: 20px;
     }
     .footer .main-footer .main-footer-inner ul li {
-        margin-right: 14px;
-        margin-left: 6px;
+        margin-right: 0px;
+        margin-left: 18px;
     }
     .footer .main-footer .main-footer-inner ul li a {
-        font-size: 28px;
-        line-height: 38px;
+        font-size: 14px;
+        line-height: 24px;
     }
 }
   
