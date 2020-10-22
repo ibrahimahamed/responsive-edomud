@@ -28,48 +28,42 @@
   <body>
     <!-- header section start -->
     <header class="header-section">
-      <div class="container">
-        <div class="row">
-          <div class="menu">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="container">
-                <a class="navbar-brand" href="#">
-                  <img src="img/logo.png" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Study <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">About us</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Admmission</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Pages</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="btn btn-info" href="#">Apply now</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-wrapper">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Study <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Admmission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-info" href="#">Apply now</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
+      </nav>
       <div class="banner">
         <div class="container">
           <div class="row">
@@ -145,20 +139,20 @@
             
           <div class="row">
             <div class="col-sm-4">
-              <div class="student"  data-aos="fade-left" data-aos-duration="1000">
-                <h1>4000</h1>
+              <div class="counter">
+                <h1 class="demo1"></h1>
                 <p>Students</p>
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="courses"  data-aos="fade-left" data-aos-duration="1000">
-                <h1>260</h1>
+              <div class="courses">
+                <h1 class="demo2"></h1>
                 <p>Courses</p>
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="hours-video"  data-aos="fade-left" data-aos-duration="1000">
-                <h1>5679</h1>
+              <div class="hours-video">
+                <h1 class="demo3"></h1>
                 <p>Hours video</p>
               </div>
             </div>
@@ -368,14 +362,23 @@
     </footer>
     <!-- footer section end -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- ==========jQuery plugin========== -->
+    <!-- ==========bootstrap js========== -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ==========aos js========== -->
     <script src="js/aos.js"></script>
+    <!-- ==========stickup js========== -->
+    <script src="js/stickUp.min.js"></script>
+    <!-- ==========counterup js========== -->
+    <script src="js/animationCounter.min.js"></script>
+    <!-- ===========main js========== -->
+    <script src="js/custom.js"></script>
+
     <script>
       AOS.init();
     </script>
+
   </body>
 </html>
